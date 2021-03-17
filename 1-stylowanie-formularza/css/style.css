@@ -1,0 +1,28 @@
+form {
+    background-color: #213b50;
+    color: #fff;
+}
+
+input,
+select,
+textarea {
+    background-color: #2b4a64;
+    color: #fff;
+    width: 50%;
+    margin-bottom: 10px;
+    border: solid #2b4a64;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    width: auto;
+}
+
+label {
+    display: block;
+}
+
+label[for*="male"],
+label[for="agreement"] {
+    display: inline;
+}
