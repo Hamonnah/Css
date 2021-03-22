@@ -1,0 +1,62 @@
+.outer {
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    border: 1px #666360 solid;
+    position: relative;
+  }
+  
+  .inner {
+    height: 100px;
+    width: 100px;
+    border: 1px white solid;
+    position: absolute;
+  }
+
+  .red {
+      background-color: red;
+  }
+
+  .blue {
+      background-color: royalblue;
+      left: 100px;
+  }
+
+  .green {
+      background-color: seagreen;
+      right: 0;
+  }
+
+  .yellow {
+      background-color: yellow;
+      top: 100px;
+  }
+
+  .black {
+      background-color: black;
+      top: 100px;
+      left: 100px;
+  }
+
+  .orange {
+      background-color: orange;
+      top: 100px;
+      right: 0;
+  }
+
+  .violet {
+    background-color: violet;
+    bottom: 0;
+  }
+
+  .gray {
+    background-color: gray;
+    bottom: 0;
+    right: 100px;
+  }
+
+  .pink{
+    background-color: pink;
+    bottom: 0;
+    right: 0;
+  }
