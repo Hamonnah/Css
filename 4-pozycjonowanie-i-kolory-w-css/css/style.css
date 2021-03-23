@@ -4,59 +4,59 @@
     background-color: white;
     border: 1px #666360 solid;
     position: relative;
-  }
-  
-  .inner {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.inner {
     height: 100px;
     width: 100px;
     border: 1px white solid;
-    position: absolute;
-  }
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-  .red {
-      background-color: red;
-  }
+.red {
+    background-color: red;
+}
 
-  .blue {
-      background-color: royalblue;
-      left: 100px;
-  }
+.blue {
+    background-color: royalblue;
+}
 
-  .green {
-      background-color: seagreen;
-      right: 0;
-  }
+.green {
+    background-color: seagreen;
+}
 
-  .yellow {
-      background-color: yellow;
-      top: 100px;
-  }
+.yellow {
+    background-color: yellow;
+}
 
-  .black {
-      background-color: black;
-      top: 100px;
-      left: 100px;
-  }
+.black {
+    background-color: black;
+}
 
-  .orange {
-      background-color: orange;
-      top: 100px;
-      right: 0;
-  }
+.orange {
+    background-color: orange;
+}
 
-  .violet {
+.violet {
     background-color: violet;
-    bottom: 0;
-  }
+}
 
-  .gray {
+.gray {
     background-color: gray;
-    bottom: 0;
-    right: 100px;
-  }
+}
 
-  .pink{
+.pink {
     background-color: pink;
-    bottom: 0;
-    right: 0;
-  }
+}
+
+.circle {
+    height: 50px;
+    width: 50px;
+    border: 1px black solid;
+    border-radius: 50%;
+}
