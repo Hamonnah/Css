@@ -1,0 +1,72 @@
+
+.numbers {
+    background-color: black;
+    font-size: 2em;
+    width: 300px;
+    position: relative;
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.numbers span {
+    position: absolute;
+    color: white;
+    opacity: 0;
+    animation-name: count-down;
+    animation-duration: 1s;
+}
+
+.numbers span:nth-of-type(1) {
+}
+
+.numbers span:nth-of-type(2) {   
+    animation-delay: 1s; 
+}
+
+.numbers span:nth-of-type(3) {
+    animation-delay: 2s;
+}
+
+.numbers span:nth-of-type(4) {
+    animation-delay: 3s;
+}
+
+.numbers span:nth-of-type(5) {
+    animation-delay: 4s;
+}
+
+.numbers span:nth-of-type(6) {
+    animation-delay: 5s;
+}
+
+.numbers span:nth-of-type(7) {
+    animation-delay: 6s;
+}
+
+.numbers span:nth-of-type(8) {
+    animation-delay: 7s;
+}
+
+.numbers span:nth-of-type(9) {
+    animation-delay: 8s;
+}
+
+.numbers span:nth-of-type(10) {
+    animation-delay: 9s;
+}
+
+.numbers span:nth-of-type(11) {
+    animation-delay: 10s;
+}
+
+@keyframes count-down {
+   0%, 100% {
+       opacity: 0;
+   }
+
+   50% {
+       opacity: 1;
+   }
+}
